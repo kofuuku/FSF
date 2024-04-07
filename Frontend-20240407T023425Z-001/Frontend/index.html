@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous"
+        />
+        <link href="./style.css" rel="stylesheet" />
+        <title>FSF</title>
+    </head>
+    <body>
+        <!-- NAV -->
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid my-2 mx-4">
+                <a href="#" class="navbar-brand text-light"
+                    >Farmer's Support Forum</a
+                >
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navMenu"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navMenu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a
+                                href="./pages/helpline.html"
+                                class="nav-link text-light"
+                                >Helpline</a
+                            >
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle text-light"
+                                href="#"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                                Features
+                            </a>
+                            <ul
+                                class="dropdown-menu text-light"
+                                style="
+                                    background-color: #a7c957;
+                                    border-color: #a7c957;
+                                "
+                            >
+                                <li>
+                                    <a
+                                        class="dropdown-item text-light"
+                                        href="./pages/forums.html"
+                                        >Forums</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item text-light"
+                                        href="./pages/marketplace.html"
+                                        >Marketplace</a
+                                    >
+                                </li>
+                                <li><hr class="dropdown-divider" /></li>
+                                <li>
+                                    <a
+                                        class="dropdown-item text-light"
+                                        href="./pages/profile.html"
+                                        >Profile</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item text-light"
+                                        href="#login"
+                                        >Log In</a
+                                    >
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                href="./pages/about.html"
+                                class="nav-link text-light"
+                                >About</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- HERO -->
+        <section class="hero p-5 text-start">
+            <div class="container">
+                <div class="row">
+                    <div
+                        class="col-5 d-flex justify-content-center flex-column text-light"
+                    >
+                        <h1>
+                            Support for
+                            <span style="color: #a7c957">Farmers</span> by
+                            <span style="color: #a7c957">Farmers</span>
+                        </h1>
+                        <p class="lead my-4">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Qui voluptas quia deleniti, eius numquam!
+                        </p>
+                        <button class="btn btn-primary btn-md">Sign up</button>
+                    </div>
+                    <div class="col d-flex justify-content-end">
+                        <img class="img-fluid" src="img/hero.png" width="75%" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CARDS -->
+        <section class="p-5" style="background-color: #457345">
+            <div class="d-flex gap-5 m-5 justify-content-center">
+                <div
+                    class="card"
+                    id="custom-card"
+                    style="width: 18rem; background-color: #f2e8cf"
+                >
+                    <img
+                        src="./img/forum_card.png"
+                        class="card-img-top"
+                        alt="..."
+                        height="200px"
+                        width="200px"
+                    />
+                    <div class="card-body">
+                        <h5 class="card-title">Specialized Forums</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Totam eligendi consequatur nisi temporibus
+                            rem, delectus hic pariatur obcaecati sint ducimus.
+                        </p>
+                    </div>
+                </div>
+                <div
+                    class="card"
+                    style="width: 18rem; background-color: #f2e8cf"
+                >
+                    <img
+                        src="./img/market_card.png"
+                        class="card-img-top"
+                        alt="..."
+                        height="200px"
+                        width="200px"
+                    />
+                    <div class="card-body">
+                        <h5 class="card-title">Marketplace</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Sint dolorum est tempore, dolores nostrum
+                            similique inventore autem suscipit nesciunt.
+                            Placeat?
+                        </p>
+                    </div>
+                </div>
+                <div
+                    class="card"
+                    style="width: 18rem; background-color: #f2e8cf"
+                >
+                    <img
+                        src="./img/recs_card.png"
+                        class="card-img-top"
+                        alt="..."
+                        height="200px"
+                        width="200px"
+                    />
+                    <div class="card-body">
+                        <h5 class="card-title">Purchase Recommendations</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Accusantium culpa quibusdam ut, voluptas
+                            aspernatur perferendis facilis sint similique sunt
+                            architecto!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="bg-light text-center">
+            <!-- Copyright -->
+            <div
+                class="text-center text-light p-3"
+                style="background-color: #386641"
+            >
+                Farmer's Support Forum © 2024 Copyright
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
